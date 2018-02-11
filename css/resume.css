@@ -70,14 +70,14 @@ a:focus
   text-transform: uppercase;
 }
 
-#about {
+.resume-section {
   background-image: url(../img/aboutback.jpeg);
   background-size: cover;
   opacity: 0.95;
   color: #ffffff;
 }
 
-#about a {
+.resume-section a {
   color: #d78f4b !important;
 }
 
