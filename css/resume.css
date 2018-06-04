@@ -65,6 +65,11 @@ a:focus
   color: #d78f4b;
 }
 
+.office:hover {
+  background-image: url(../img/officeorange.ico);
+  z-index: 999;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
