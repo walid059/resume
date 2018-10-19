@@ -285,3 +285,48 @@ a:hover, a:focus, a:active {
 .exrea {
   margin-bottom: 30px;
 }
+
+/* REALISATION */
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.link, .link a {
+  background-color: #d78f4b;
+  color: white !important;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-decoration: none;
+  transform: scale(1.1);
+  transition: .1s;
+}
+.link a:hover {
+  transition: .1s;
+  transform: scale(1.1);
+  font-size: 18px;
+}

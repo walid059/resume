@@ -1,7 +1,7 @@
 (function($) {
-  "use strict"; // Start of use strict
+  "use strict";
 
-  // Smooth scrolling using jQuery easing
+  // Scroll doux
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -15,14 +15,14 @@
     }
   });
 
-  // Closes responsive menu when a scroll trigger link is clicked
+  // Fermer le menu responsive après avoir cliquer sur une rubrique
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
 
-  // Activate scrollspy to add active class to navbar items on scroll
+  // Voir la rubrique affiché dans le menu
   $('body').scrollspy({
     target: '#sideNav'
   });
 
-})(jQuery); // End of use strict
+})(jQuery);
