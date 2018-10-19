@@ -316,17 +316,23 @@ a:hover, a:focus, a:active {
   opacity: 1;
 }
 
-.link, .link a {
+.link {
   background-color: #d78f4b;
-  color: white !important;
+  color: white;
   font-size: 16px;
   padding: 16px 32px;
   text-decoration: none;
-  transform: scale(1.1);
+}
+
+.link a {
+  color: white !important;
   transition: .1s;
+  transform: scale(1.1);
+  text-decoration: none;
 }
 .link a:hover {
   transition: .1s;
   transform: scale(1.1);
-  font-size: 18px;
+  font-size: 14px;
+  text-decoration: none;
 }
